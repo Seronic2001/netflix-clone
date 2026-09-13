@@ -1,4 +1,4 @@
-import bycrypt from 'bcrypt';
+import bycrypt from 'bcryptjs';
 import { NextApiRequest, NextApiResponse } from 'next';
 import prismadb from '@/lib/prismadb';
 
